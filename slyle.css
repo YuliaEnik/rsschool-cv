@@ -1,0 +1,181 @@
+.table {
+/*background-color:#ebf0f1;*/
+background: linear-gradient(to bottom, #003D74 30%, #ebf0f1);
+width: 100%;
+height: 100%;
+font-size: 22px;
+color: #1f527e;
+}
+
+a {
+    text-decoration:none;
+    color: #1f527e;
+}
+  
+a:hover {
+    color: #579ebe;
+}
+
+.wrapper{
+    margin: 0px auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+            -23px 0 20px -23px rgba(0, 0, 0, .6),
+            23px 0 20px -23px rgba(0, 0, 0, .6),
+            inset 0 0 40px rgba(0, 0, 0, .1);
+    width: 1200px;
+}
+
+.header {
+    display: flex;
+    background-color: #C6D9DF; 
+}
+
+.contacts {
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+}
+
+.contacts-nav {
+    list-style-type: none;
+}
+
+.tel {
+    text-decoration: underline;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.photo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.photo-size {
+    width: 300px;
+    height: 300px;
+    padding: 1px; 
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+}
+
+h1{
+    color: #003D74;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+h2{
+    color: #003D74;
+}
+
+h3{
+    color: #003D74;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.span {
+    height: 50px;
+    width: 100px;
+    background-color:  #C6D9DF;;
+}
+
+.main {
+    display: flex;
+    background-color: white;
+}
+
+.about {
+    width: 50%;
+    padding: 40px;
+}
+
+.information {
+    width: 50%;
+    padding: 40px;
+}
+
+.BSEU {
+    position:relative;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.BSEU:after {
+    content:'';
+    display:block;
+    width: 100px;
+    height: 75px;
+    opacity:0;
+    background: url(img/bseuhover.png) no-repeat center;
+    background-size: cover;
+    border-radius:5%;
+    position:absolute;
+    left: 75px;
+    top:20px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+
+.BSEU:hover:after {
+    opacity: 100;
+  }
+
+.sertificate {
+    position:relative;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.sertificate:after {
+    content:'';
+    display:block;
+    width: 100px;
+    height: 75px;
+    opacity:0;
+    background: url(img/sertificate.png) no-repeat center;
+    background-size: cover;
+    border-radius:5%;
+    position:absolute;
+    left: 75px;
+    top:20px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+
+  .sertificate:hover:after {
+    opacity: 100;
+  }
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color:#C6D9DF;
+}
+
+.footernav{
+    display: flex;
+    list-style-type: none;
+    width: 1120px;
+    justify-content: space-around;
+    align-items: center;
+    color:#648b99 ;
+}
+
+.github-img {
+    width: 60px;
+    height: 60px;
+}
+
+.rss-img {
+    height: 100px;
+    width: 100px;
+}
