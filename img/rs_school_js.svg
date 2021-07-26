@@ -21,7 +21,7 @@
     </rdf:RDF>
   </metadata>
   <style
-     id="style2">.st0{fill:#7A9CA7}.st1{clip-path:url(#SVGID_2_)}.st2{clip-path:url(#SVGID_4_)}.st3{clip-path:url(#SVGID_6_)}.st4{clip-path:url(#SVGID_8_)}.st5{fill:#fff;stroke:#7A9CA7;stroke-width:4;stroke-miterlimit:10}.st6{clip-path:url(#SVGID_8_)}.st6,.st7{fill:none;stroke:#7A9CA7;stroke-width:4;stroke-miterlimit:10}.st8,.st9{clip-path:url(#SVGID_10_)}.st9{fill:none;stroke:#7A9CA7;stroke-width:4;stroke-miterlimit:10}</style>
+     id="style2">.st0{fill:white}.st1{clip-path:url(#SVGID_2_)}.st2{clip-path:url(#SVGID_4_)}.st3{clip-path:url(#SVGID_6_)}.st4{clip-path:url(#SVGID_8_)}.st5{fill:white;stroke:white;stroke-width:4;stroke-miterlimit:10}.st6{clip-path:url(#SVGID_8_)}.st6,.st7{fill:white;stroke:white;stroke-width:4;stroke-miterlimit:10}.st8,.st9{clip-path:url(#SVGID_10_)}.st9{fill:white;stroke:#7A9CA7;stroke-width:4;stroke-miterlimit:10}</style>
   <title
      id="title4">rs_school_js</title>
   <path

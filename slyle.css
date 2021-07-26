@@ -53,28 +53,28 @@ a:hover {
     border: 3px solid #FFFFFF;
 }
 
-h1{
+h1 {
     color: #003D74;
     font-size: 50px;
     margin-bottom: 10px;
     font-style: italic;
 }
 
-h2{
+h3 {
     color: #003D74;
+    font-size: 28px;
 }
 
-h3{
+h2 {
     color: #003D74;
     font-size: 30px;
+    margin-top: 0;
     font-style: italic;
-    margin-top: 0px;
 }
 
-.span {
-    height: 50px;
-    width: 100px;
-    background-color:  #C6D9DF;;
+.title {
+    height: 35px;
+    background: linear-gradient(to right, #C6D9DF 10%, white 90%);
 }
 
 .main {
@@ -140,7 +140,7 @@ h3{
     transition: all 1s;
   }
 
-  .sertificate:hover:after {
+.sertificate:hover:after {
     opacity: 100;
   }
 
@@ -157,7 +157,7 @@ h3{
     width: 1120px;
     justify-content: space-around;
     align-items: center;
-    color:#648b99 ;
+    color: rgb(14, 13, 13);
 }
 
 .github-img {
@@ -165,7 +165,21 @@ h3{
     height: 60px;
 }
 
+.github-img:hover{
+    opacity: 0.3;
+}
+
 .rss-img {
     height: 100px;
     width: 100px;
+}
+
+.rss-img:hover{
+    opacity: 0.3;
+}
+
+.img-wildlife {
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
 }
