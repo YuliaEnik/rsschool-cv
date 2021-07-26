@@ -157,7 +157,7 @@ h2 {
     width: 1120px;
     justify-content: space-around;
     align-items: center;
-    color:#648b99 ;
+    color: rgb(14, 13, 13);
 }
 
 .github-img {
@@ -165,7 +165,21 @@ h2 {
     height: 60px;
 }
 
+.github-img:hover{
+    opacity: 0.3;
+}
+
 .rss-img {
     height: 100px;
     width: 100px;
+}
+
+.rss-img:hover{
+    opacity: 0.3;
+}
+
+.img-wildlife {
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
 }
