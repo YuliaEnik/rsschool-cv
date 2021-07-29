@@ -160,13 +160,13 @@ h2 {
 }
 
 .github-img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .rss-img {
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
 }
 footer a:hover{
     opacity: 0.3;
