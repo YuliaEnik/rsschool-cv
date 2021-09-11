@@ -1,6 +1,7 @@
 :root {
     --main-color: #C6D9DF;
     --text-color: #1f527e;
+    --nav-color: rgb(69, 128, 170);
 }
 
 .table {
@@ -77,6 +78,16 @@ h2 {
 .title {
     height: 35px;
     background: linear-gradient(to right, #C6D9DF 10%, white 90%);
+}
+
+.menu-list {
+    list-style: none;
+    font-size: 16px;
+}
+
+.list-link {
+    color: var(--nav-color);
+    text-decoration: none;
 }
 
 .main {
@@ -186,9 +197,6 @@ footer a:hover{
 .wrapper {
     width: 100%;
     align-content: center;
-}
-.photo {
-    order:0;
 }   
 .contacts {
     order:1;
