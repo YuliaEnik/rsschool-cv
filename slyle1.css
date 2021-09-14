@@ -1,6 +1,6 @@
 :root {
-    --header-color: #48596a;
-    --text-color: #f1f4f7;
+    --main-color: #f3e8cd;
+    --text-color: #1f527e;
     --border-color: rgba(170, 113, 6, 0.932);
 
 }
@@ -9,20 +9,15 @@ html {
 }
 
 .table {
-background-image:  url(img/bg3.jpeg);
-background-size: cover;
+background: linear-gradient(to bottom, #c5c7c9 30%, #ebf0f1);
 width: 100%;
 height: 100%;
 font-size: 20px;
 color: var(--text-color);
-
 }
 
 a {
     color: var(--text-color);
-}
-.main a{
-    color: var(--header-color);
 }
   
 a:hover {
@@ -31,15 +26,18 @@ a:hover {
 
 .wrapper{
     margin: 0px auto;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.9);
-    max-width: 980px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+            -23px 0 20px -23px rgba(0, 0, 0, .6),
+            23px 0 20px -23px rgba(0, 0, 0, .6),
+            inset 0 0 40px rgba(0, 0, 0, .1);
+    width: 1000px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: var(--header-color); 
+    background-color: var(--main-color); 
     border-bottom: solid 1px var(--border-color);
 }
 
@@ -89,7 +87,7 @@ h1 {
 h3 {
     font-size: 24px;
     font-style: italic;
-    color: var(--text-color);
+  
 }
 
 h2 {
@@ -99,7 +97,7 @@ h2 {
 }
 
 .title {
-    background: linear-gradient(to right, var(--header-color) 10%, rgb(199, 207, 201) 90%);
+    background: linear-gradient(to right, var(--main-color) 10%, rgb(199, 207, 201) 90%);
 }
 
 .menu-list {
@@ -120,8 +118,7 @@ h2 {
 
 .main {
     display: flex;
-    background-color: #d0d7dc;
-    color: var(--header-color);
+    background-color: #f3f5f5;
 }
 
 .about {
@@ -189,7 +186,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--header-color);
+    background-color: var(--main-color);
     border-top: solid 1px var(--border-color);
 }
 
