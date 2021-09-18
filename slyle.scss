@@ -106,11 +106,6 @@ a:hover {
     top: 14px;
     transition: all 0.3s ease;
 }
-/*
-.header__burger span + span {
-    margin-top: 9px;
-}*/
-
 
 .header__burger::before,
 .header__burger::after{
@@ -161,10 +156,10 @@ a:hover {
     left: -100%;
     width: 60%;
     height: 100%; 
-    font-size: 26px;
+    font-size: 28px;
     align-items: start;
     background-color: var(--bg-burger);
-    background: linear-gradient(to right, rgba( 6, 9, 18, 1 ) 0%,  rgba( 6, 9, 18, 0) 100%);
+    background: linear-gradient(to right, rgba( 6, 9, 18, 1 ) 25%,  rgba( 6, 9, 18, 0) 100%);
     z-index:  2;
     transition: left 0.5s ease;
     overflow: auto;
