@@ -127,10 +127,6 @@ a:hover {
   transition: all 0.3s ease;
 }
 
-/*
-.header__burger span + span {
-    margin-top: 9px;
-}*/
 .header__burger::before,
 .header__burger::after {
   content: '';
@@ -190,13 +186,13 @@ a:hover {
     left: -100%;
     width: 60%;
     height: 100%;
-    font-size: 26px;
+    font-size: 28px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
     background-color: var(--bg-burger);
-    background: -webkit-gradient(linear, left top, right top, from(#060912), to(rgba(6, 9, 18, 0)));
-    background: linear-gradient(to right, #060912 0%, rgba(6, 9, 18, 0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(25%, #060912), to(rgba(6, 9, 18, 0)));
+    background: linear-gradient(to right, #060912 25%, rgba(6, 9, 18, 0) 100%);
     z-index: 2;
     -webkit-transition: left 0.5s ease;
     transition: left 0.5s ease;
