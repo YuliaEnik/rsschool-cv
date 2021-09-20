@@ -72,8 +72,9 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -87,6 +88,12 @@ a:hover {
   width: 100%;
   left: 0;
   top: 20px;
+}
+
+@media (max-width: 480px) {
+  .header_burger_section {
+    top: 0;
+  }
 }
 
 .header__burger__wrapper {
@@ -177,6 +184,7 @@ a:hover {
       -ms-flex-align: end;
           align-items: end;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 992px) {
@@ -184,15 +192,14 @@ a:hover {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 60%;
+    width: 90%;
     height: 100%;
     font-size: 28px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    background-color: var(--bg-burger);
-    background: -webkit-gradient(linear, left top, right top, color-stop(25%, #060912), to(rgba(6, 9, 18, 0)));
-    background: linear-gradient(to right, #060912 25%, rgba(6, 9, 18, 0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(35%, rgba(30, 33, 43, 0.9)), to(rgba(30, 33, 43, 0)));
+    background: linear-gradient(to right, rgba(30, 33, 43, 0.9) 35%, rgba(30, 33, 43, 0) 100%);
     z-index: 2;
     -webkit-transition: left 0.5s ease;
     transition: left 0.5s ease;
@@ -220,8 +227,14 @@ ul {
 }
 
 .header__contacts {
-  padding: 5%;
+  padding: 5% 0 5% 10%;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .header__contacts {
+    padding: 0;
+  }
 }
 
 .header__contacts-nav {
@@ -236,7 +249,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px auto;
+  margin: 10px 0 10px 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -244,6 +257,12 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   border: 2px solid var(--border-color);
+}
+
+@media (max-width: 480px) {
+  .header__photo {
+    margin: 10px auto 0;
+  }
 }
 
 .scale {
