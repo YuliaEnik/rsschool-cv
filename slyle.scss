@@ -62,17 +62,24 @@ a:hover {
     border-bottom: solid 2px var(--border-color);
        &__content {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
 }
 }
+
 .header_burger_section {
     display: none;
     position: fixed;
     width: 100%;
     left:0;
     top:20px;
+}
+
+@media (max-width: 480px) {
+    .header_burger_section {
+        top:0;
+    }
 }
 
 .header__burger__wrapper{
@@ -147,6 +154,7 @@ a:hover {
     list-style: none;
     align-items: end;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 992px) {
@@ -154,12 +162,11 @@ a:hover {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 60%;
+    width: 90%;
     height: 100%; 
     font-size: 28px;
     align-items: start;
-    background-color: var(--bg-burger);
-    background: linear-gradient(to right, rgba( 6, 9, 18, 1 ) 25%,  rgba( 6, 9, 18, 0) 100%);
+    background: linear-gradient(to right, rgba( 30, 33, 43, 0.9 ) 35%,  rgba( 30, 33, 43, 0) 100%);
     z-index:  2;
     transition: left 0.5s ease;
     overflow: auto;
@@ -190,8 +197,14 @@ ul {
 
 
 .header__contacts {
-    padding: 5%;
+    padding: 5% 0 5% 10%;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .header__contacts {
+        padding: 0;
+    }
 }
 
 .header__contacts-nav {
@@ -204,10 +217,16 @@ ul {
     height: 280px;
     border-radius: 50%;
     display: flex;
-    margin: 10px auto;
+    margin: 10px 0 10px 10%;
     align-items: center;
     justify-content: center; 
     border: 2px solid var(--border-color) 
+}
+
+@media (max-width: 480px) {
+    .header__photo {
+        margin: 10px auto 0;
+    }
 }
 
 .scale {
