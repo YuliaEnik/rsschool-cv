@@ -10,6 +10,10 @@ html {
     scroll-behavior: smooth;
 }
 
+figure {
+    margin: 0;
+}
+
 .table {
     background-image:  url(img/bg3.jpeg);
     padding: 20px 0;
@@ -222,9 +226,9 @@ ul {
     border: 2px solid var(--border-color) 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .header__photo {
-        margin: 10px auto 0;
+        margin: 10px auto 0 ;
     }
 }
 
@@ -381,26 +385,35 @@ footer a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 20px;
 }
 .experience {
     display: flex;
+    column-gap: 15px;
 }
 
 @media (max-width: 767px) {
     .experience {
         flex-direction: column;
         align-items: center;
+        row-gap: 20px;
     }
     .forth{
         order:4;
     }
 }
 .experience-img-conteiner {
-    margin: 10px;  
     height: 150px;
     width: 250px;
     border-radius: 5px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)  
+}
+
+
+@media (max-width: 767px) {
+    .forth{
+        order:4;
+    }
 }
 
 .experience-img {

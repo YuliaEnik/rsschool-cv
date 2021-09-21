@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
 }
 
+figure {
+  margin: 0;
+}
+
 .table {
   background-image: url(img/bg3.jpeg);
   padding: 20px 0;
@@ -184,7 +188,6 @@ a:hover {
       -ms-flex-align: end;
           align-items: end;
   font-size: 16px;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 992px) {
@@ -259,7 +262,7 @@ ul {
   border: 2px solid var(--border-color);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .header__photo {
     margin: 10px auto 0;
   }
@@ -446,12 +449,15 @@ footer a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  row-gap: 20px;
 }
 
 .experience {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
 }
 
 @media (max-width: 767px) {
@@ -463,6 +469,7 @@ footer a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    row-gap: 20px;
   }
   .forth {
     -webkit-box-ordinal-group: 5;
@@ -472,12 +479,19 @@ footer a:hover {
 }
 
 .experience-img-conteiner {
-  margin: 10px;
   height: 150px;
   width: 250px;
   border-radius: 5px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width: 767px) {
+  .forth {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
 }
 
 .experience-img {
