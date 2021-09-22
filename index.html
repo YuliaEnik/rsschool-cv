@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="header__content">
+                <div id='contacts'   class="header__content">
                     <div class="header__contacts">
                         <h1>Yuliya Aleinik</h1>
                         <h2>Front-end developer</h2>
@@ -53,6 +53,9 @@
 
                     <nav>
                         <ul class="menu-list">
+                            <li>
+                                <a href="#contacts" class="list-link">Contacts</a>
+                            </li>
                             <li>
                                 <a href="#education" class="list-link">Education</a>
                             </li>
@@ -163,15 +166,13 @@
                         <h3>Code example</h3>
                     </div>
                     <pre>
- <code class="language-javascript">
-function nicknameGenerator(name){
-  let lastLetter = name.charAt(2);
-  let letters = 'aeiou';     
-  if (name.length &lt; 4 ) 
-  return 'Error: Name too short';
-  return (letters.includes(lastLetter)) ? 
-  name.slice(0, 4) : name.slice(0, 3)
-}                               
+ <code class="javascript-code">
+   function nicknameGenerator(name){
+     let lastLetter = name.charAt(2);
+     let letters = 'aeiou';     
+     if (name.length &lt; 4 ) return 'Error: Name too short';
+       return (letters.includes(lastLetter)) ?  name.slice(0, 4) : name.slice(0, 3)
+   }                               
     </code>
 </pre>
 
