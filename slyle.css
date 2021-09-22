@@ -181,7 +181,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 20px;
+  row-gap: 15px;
   padding: 20px;
   list-style: none;
   -webkit-box-align: end;
