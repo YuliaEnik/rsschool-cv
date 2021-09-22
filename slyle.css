@@ -181,7 +181,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 13px;
+  row-gap: 16px;
   padding: 20px 20px 20px 0;
   list-style: none;
   -webkit-box-align: end;
@@ -252,7 +252,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px 0 10px 12%;
+  margin: 10px 0 10px 11%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
