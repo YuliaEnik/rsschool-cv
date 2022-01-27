@@ -1,1 +1,1 @@
-my resume{https://yuliaenik.github.io/rsschool-cv/}
+https://yuliaenik.github.io/rsschool-cv/
