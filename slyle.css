@@ -314,12 +314,12 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f8fcff;
+  background-color: #feffff;
   color: var(--header-color);
 }
 
 .about {
-  width: 30%;
+  width: 35%;
   padding: 20px;
   border-right: solid 2px var(--border-color);
 }
@@ -331,7 +331,7 @@ h2 {
 }
 
 .information {
-  width: 70%;
+  width: 65%;
   padding: 20px;
 }
 
@@ -395,7 +395,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 15px;
-  background-color: #485867;
+  background-color: #7b8793;
   border-top: solid 3px var(--border-color);
 }
 
@@ -453,6 +453,7 @@ footer a:hover {
 }
 
 .experience {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -483,7 +484,7 @@ footer a:hover {
   }
 }
 
-.experience-img-conteiner {
+.experience-img-container {
   height: 150px;
   width: 250px;
   border-radius: 5px;

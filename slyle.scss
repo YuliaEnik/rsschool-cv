@@ -279,12 +279,12 @@ h2 {
 
 .main {
   display: flex;
-  background-color: rgb(248, 252, 255);
+  background-color: rgb(254, 255, 255);
   color: var(--header-color);
 }
 
 .about {
-  width: 30%;
+  width: 35%;
   padding: 20px;
   border-right: solid 2px var(--border-color);
 }
@@ -296,7 +296,7 @@ h2 {
 }
 
 .information {
-  width: 70%;
+  width: 65%;
   padding: 20px;
 }
 
@@ -354,7 +354,7 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 15px;
-  background-color: #485867;
+  background-color: #7b8793;
   border-top: solid 3px var(--border-color);
 }
 
@@ -393,7 +393,9 @@ footer a:hover {
   align-items: center;
   row-gap: 20px;
 }
+
 .experience {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -410,7 +412,7 @@ footer a:hover {
     order: 4;
   }
 }
-.experience-img-conteiner {
+.experience-img-container {
   height: 150px;
   width: 250px;
   border-radius: 5px;
